@@ -9,6 +9,8 @@
  * Author URI: http://codecanyon.net/user/appscreo/portfolio?ref=appscreo
  */
 
+define ( 'ESSB3_UPDATE_PATCH', true );
+
 if (!function_exists('essb_update_patch')) {
 	add_action( 'init', 'essb_update_patch', 8);
 	
